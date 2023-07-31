@@ -1,0 +1,80 @@
+html {
+        font-size: 62.5%;
+}
+
+body {  
+    background: url('../image/bg-desktop.svg') center center no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+main {
+    display: flex;
+}
+
+.logo img {
+    margin: 3rem;
+}
+
+.imagem-principal img {
+    margin-left: 3rem;
+    width: 650px;
+}
+
+.text {
+    display: block;
+    color: #FFF;
+    height: 400px;
+    min-width: 470px;
+    width: 470px;
+    justify-content: space-around;
+    margin-left: 5rem;
+}
+
+.text h1 {
+    display: flex;
+    padding-bottom: 3rem;
+    margin-top: 4rem;
+}
+
+.text p {
+    font-size: 1.7rem;
+    padding-bottom: 4rem;
+    line-height: 2.5rem;
+}
+
+.text .btn-register {
+    color:  hsl(257, 40%, 49%);
+    background-color: #FFF;
+    align-self: self-start;
+    padding: 13px 50px 13px 50px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.text .btn-register:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #FFF;
+}
+
+.rodape {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5rem;
+}
+
+.rodape a {
+    display: flex;   
+    margin-right: 3rem;
+    padding: 10px;
+    font-size: 1.6rem;
+    border: solid white 1px;
+    border-radius: 2rem;
+    transition: 0.3s;
+}
+
+.rodape a:hover {
+    border-color:  hsl(300, 69%, 71%);
+    color:  hsl(300, 69%, 71%);
+}

@@ -1,0 +1,41 @@
+@media(max-width: 425px) {
+    html {
+        width: 600px;
+    }
+    main {
+        background: url('../image/bg-mobile.svg') no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        display: block;
+        text-align: center;
+    }
+
+    .logo img{
+        width: 200px;
+        margin-left: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .imagem-principal img {
+        width: 500px;
+        margin-left: 0;
+    }
+
+    .text {
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        height: 330px;
+    }
+
+    .text p {
+        margin: 30px 0 30px 0;
+    }
+
+    .rodape {
+        display: flex;
+        margin-right: 0;
+        margin-top: 3rem;
+        justify-content: center;
+    }
+}
